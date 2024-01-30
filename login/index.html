@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="main.css" >
+</head>
+<body class="body" onload="getData()">
+    <div id="back">
+        <form id="regesterForm" onsubmit="login()">
+            <div class="login-text">login </div>
+            <br>
+            <input type="email" placeholder="example@mail.com" required id="email">
+            <br>
+            <br>
+            <input type="password" placeholder="password" required id="password">
+            <br>
+            <span class="have_not">Dont Have account?</span>
+            <span><a href="../signup/signup.html" class="signup-text">Sign up</a></span>
+            <br >
+            <br>
+            <button class="login-button" type="submit">login</button>
+        </form>
+
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>

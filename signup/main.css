@@ -1,0 +1,46 @@
+.body{
+    background-color: black;
+    background-image: url(images/bg.jpeg);
+   
+}
+#formContainer{
+    text-align: center;
+    margin-top: 200px;
+
+}
+input{
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: grey;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+::placeholder{
+    color: rgb(184, 176, 176);
+    font-weight: 500;
+    margin-left: 10px;
+    opacity: 7px;
+}
+label{
+    color: white;
+    letter-spacing:.4rem;
+    font-size: 20px;
+    
+}
+button{
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 30px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+}

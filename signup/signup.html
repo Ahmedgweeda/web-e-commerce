@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="body">
+
+    <form id="formContainer"  method="get" action="" onsubmit="setData()">
+        <div id="user_name">
+            <label for="username">username:</label>
+            <input type="text" required id="username" placeholder="Enter your username... " name="userName">
+        </div>
+        <div id="email">
+            <label for="e-mail">Email:</label>
+            <input type="email" required id="e-mail" placeholder="example@mail.com" style="margin-left: 68px;" name="userEmail">
+        </div>
+        <div id="pass">
+            <label for="password">password:</label>
+            <input type="password" required id="password" placeholder="password" name="userPass">
+        </div>
+        <div id="confirm_pass">
+            <label for="confpass" style="font-size: 15px;">confirm pass:</label>
+            <input type="password" required id="confpass" placeholder="Confirm password" style="margin-left: -10px;" name="confirmPass">
+        </div>
+        <div>
+            
+        <button type="submit">submit</button>
+
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
